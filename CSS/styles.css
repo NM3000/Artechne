@@ -1,0 +1,288 @@
+
+/* MENÚ SUPERIOR */
+#Menuppal {
+  position: fixed;
+  z-index: 9999;
+
+    background-color: white;
+    width: auto;
+}
+
+.toplogo {
+  float: left;
+  width: auto;
+  max-width: 100%;
+  padding-left: 1.25rem;
+  margin-top: 0.5rem;
+  background-color: white;
+}
+
+.navbar {
+margin-top: 1.5rem;
+padding-left: 1.5rem;
+width: auto;
+}
+
+.menudesplegable {
+  background-color: grey;
+  height: 2.5rem;
+  width: 120rem;
+}
+
+.menulogo {
+  background-color: white;
+  height: 7.5rem;
+}
+
+a {
+    color: white;
+}
+
+.contacto {
+  margin-left: 50px;
+}
+
+.datoteca {
+  margin-left: 50px;
+}
+
+.cursos {
+  margin-left: 50px;
+  color: white;
+}
+/* SECCIÓN CAROUSEL */
+
+#carousel {
+  position: absolute;
+}
+
+#carouselIMG {
+
+}
+
+.carousel-img {
+  margin: auto;
+  padding-bottom: 5rem;
+}
+
+#carouselExampleControls {
+  color: black;
+}
+
+.carousel-control-prev-icon {
+  background-color: grey;
+  margin-left: 9rem;
+  border: 1px solid grey;
+  border-radius: 100%
+}
+
+.carousel-control-next-icon {
+  background-color: grey;
+  margin-right: 9rem;
+  border: 1px solid grey;
+  border-radius: 100%
+}
+
+.carousel-caption {
+  color: white;
+  padding-bottom: 19rem;
+}
+
+/* SECCIÓN BENEFICIOS */
+
+#Beneficios {
+    background-color: #4FAF6C;;
+    color: white;
+    padding: 50px;
+    position: static;
+}
+
+.beneficios-titulo {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.imgbckverde {
+  padding: 25px;
+  color: #white;
+
+}
+
+.beneficio-item {
+    color: white;
+}
+
+.itemstext {
+  color: #4d4d4d;
+}
+
+/* Caracteristicas */
+
+#Caracteristicas {
+  background-color: white;
+  padding: 50px;
+}
+
+.Caracteristicas-titulo {
+  text-align: center;
+  padding-bottom: 35px;
+  color: #4d4d4d;
+}
+
+.car-item {
+  margin: 1rem;
+}
+
+.imgblanco {
+  color: #4FAF6C;
+}
+
+@media(min-width: 800px) {
+  .row1 {
+    margin-left: 15rem;
+    text-align: center;
+  }
+}
+
+@media(max-width: 800px) {
+  .row1 {
+    margin-left: 2.5rem;
+    text-align: center;
+  }
+}
+
+.img-card {
+
+  color: #4FAF6C;
+}
+.card {
+  margin-right: 1.875rem;
+  margin-bottom: 0.75rem;
+  padding-top: 1.563rem;
+}
+/* Sponsors */
+
+.sponsors {
+margin-top: 1rem;
+  border: 2px solid white;
+  border-radius: 100%
+}
+
+.ipc {
+  width: 25%;
+  height: 40%;
+}
+
+.enaecr {
+  width: 25%;
+  height: 40%;
+}
+
+.olivares {
+  width: 25%;
+  height: 40%;
+}
+.sponsor-item {
+    color: white;
+    margin-top: 1.25rem;
+}
+
+.beneficios-titulo {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* SECCIÓN GALERÍA */
+#Galeria {
+  color: #4d4d4d;
+  padding-bottom: 50px;
+}
+
+.galeria-titulo {
+  padding-top: 15rem;
+  text-align: center;
+}
+
+.row {
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.card-body {
+  padding: 25px;
+}
+
+.teatro {
+  margin-left: 3.125rem;
+  margin-right: 3.125rem;
+}
+
+@media(min-width: 800px) {
+  .row-caracteristicas {
+    margin-left: 11.275rem;
+    text-align: center;
+  }
+}
+
+@media(max-width: 800px) {
+  .teatro {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .cc {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+}
+
+.footerbox {
+  background-color: grey;
+  text-align: center;
+  }
+
+.footer {
+  background-color: grey;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: center;
+}
+
+.tb-config {
+text-align: center;
+}
+
+.imgfooter {
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 3.75rem;
+}
+
+.textfooter {
+  color: white;
+  text-align: center;
+}
+
+.texto {
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
+
+
+.imgfooter:hover {
+  color: #4FAF6C;
+}
