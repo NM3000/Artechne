@@ -1,26 +1,30 @@
-
 /* MENÚ SUPERIOR */
 #Menuppal {
   position: fixed;
   z-index: 9999;
-
-    background-color: white;
-    width: auto;
+  margin: auto;
+  background-color: white;
+  width: auto;
 }
 
 .toplogo {
-  float: left;
   width: auto;
-  max-width: 100%;
-  padding-left: 1.25rem;
+  max-width: 125%;
   margin-top: 0.5rem;
+  margin-left: 32.5rem;
   background-color: white;
 }
 
+@media(max-width: 640px) {
+  .toplogo {
+    margin-left: 5rem;
+  }
+}
+
 .navbar {
-margin-top: 1.5rem;
-padding-left: 1.5rem;
-width: auto;
+  margin-top: 1.5rem;
+  padding-left: 1.5rem;
+  width: auto;
 }
 
 .menudesplegable {
@@ -35,7 +39,7 @@ width: auto;
 }
 
 a {
-    color: white;
+  color: white;
 }
 
 .contacto {
@@ -50,23 +54,11 @@ a {
   margin-left: 50px;
   color: white;
 }
+
 /* SECCIÓN CAROUSEL */
-
-#carousel {
-  position: absolute;
-}
-
-#carouselIMG {
-
-}
-
 .carousel-img {
   margin: auto;
   padding-bottom: 5rem;
-}
-
-#carouselExampleControls {
-  color: black;
 }
 
 .carousel-control-prev-icon {
@@ -83,18 +75,13 @@ a {
   border-radius: 100%
 }
 
-.carousel-caption {
-  color: white;
-  padding-bottom: 19rem;
-}
-
 /* SECCIÓN BENEFICIOS */
-
 #Beneficios {
-    background-color: #4FAF6C;;
-    color: white;
-    padding: 50px;
-    position: static;
+  background-color: #4FAF6C;
+  ;
+  color: white;
+  padding: 50px;
+  position: static;
 }
 
 .beneficios-titulo {
@@ -105,11 +92,10 @@ a {
 .imgbckverde {
   padding: 25px;
   color: #white;
-
 }
 
 .beneficio-item {
-    color: white;
+  color: white;
 }
 
 .itemstext {
@@ -117,7 +103,6 @@ a {
 }
 
 /* Caracteristicas */
-
 #Caracteristicas {
   background-color: white;
   padding: 50px;
@@ -152,18 +137,18 @@ a {
 }
 
 .img-card {
-
   color: #4FAF6C;
 }
+
 .card {
   margin-right: 1.875rem;
   margin-bottom: 0.75rem;
   padding-top: 1.563rem;
 }
-/* Sponsors */
 
+/* Sponsors */
 .sponsors {
-margin-top: 1rem;
+  margin-top: 1rem;
   border: 2px solid white;
   border-radius: 100%
 }
@@ -182,9 +167,10 @@ margin-top: 1rem;
   width: 25%;
   height: 40%;
 }
+
 .sponsor-item {
-    color: white;
-    margin-top: 1.25rem;
+  color: white;
+  margin-top: 1.25rem;
 }
 
 .beneficios-titulo {
@@ -231,6 +217,7 @@ margin-top: 1rem;
     margin-left: 0;
     margin-right: 0;
   }
+
   .cc {
     margin-left: auto;
     margin-right: auto;
@@ -245,17 +232,22 @@ margin-top: 1rem;
 .footerbox {
   background-color: grey;
   text-align: center;
-  }
+}
 
 .footer {
   background-color: grey;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-    text-align: center;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .tb-config {
-text-align: center;
+  text-align: center;
+}
+
+@media(min-width: 320px) and (max-width: 520px) {
+  .imgfooter {
+    padding-right: 1.5rem;
+  }
 }
 
 .imgfooter {
@@ -271,17 +263,11 @@ text-align: center;
 }
 
 .texto {
-    text-align: center;
-    background-color: grey;
-    color: white;
-    padding-bottom: 1rem;
-}
-
-.center {
   text-align: center;
-  border: 3px solid green;
+  background-color: grey;
+  color: white;
+  padding-bottom: 1rem;
 }
-
 
 .imgfooter:hover {
   color: #4FAF6C;
