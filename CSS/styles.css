@@ -44,10 +44,10 @@
 }
 
 @media(max-width: 640px) {
-    .toplogo {
+   .toplogo {
       margin-left: 2rem;
     }
-  #carousel {
+  .carousel-inner {
     height: 50px;
   }
  }
