@@ -231,6 +231,7 @@ a {
 
 .footerbox {
   background-color: grey;
+  padding: 7% 15%;
   text-align: center;
 }
 
@@ -252,9 +253,7 @@ a {
 
 .imgfooter {
   color: white;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  padding-right: 3.75rem;
+  padding-right: 1.5rem;
 }
 
 .textfooter {
