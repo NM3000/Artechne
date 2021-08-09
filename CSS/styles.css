@@ -47,8 +47,9 @@
    .toplogo {
       margin-left: 2rem;
     }
-  .carousel-inner {
-    height: 50px;
+  .carousel-img {
+    height: 50%;
+    width: 50%;
   }
  }
 
