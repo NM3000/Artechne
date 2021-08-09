@@ -103,9 +103,7 @@ a {
   border-radius: 100%
 }
 
-.carousel-item.active,
-.carousel-item-next,
-.carousel-item-prev {
+.carousel-inner {
   display: block;
 }
 
