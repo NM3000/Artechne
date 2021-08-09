@@ -75,6 +75,12 @@ a {
   border-radius: 100%
 }
 
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
 /* SECCIÓN BENEFICIOS */
 #Beneficios {
   background-color: #4FAF6C;
