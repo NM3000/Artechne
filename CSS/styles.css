@@ -47,7 +47,10 @@
     .toplogo {
       margin-left: 2rem;
     }
+  #carousel {
+    height: 50px;
   }
+ }
 
 .navbar {
   margin-top: 1.5rem;
