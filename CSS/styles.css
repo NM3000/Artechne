@@ -11,15 +11,43 @@
   width: auto;
   max-width: 125%;
   margin-top: 0.5rem;
-  margin-left: 32.5rem;
+  margin-left: 37rem;
   background-color: white;
 }
 
-@media(max-width: 640px) {
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
   .toplogo {
-    margin-left: 2rem;
+    margin-left: 32.5rem;
   }
 }
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .toplogo {
+    margin-left: 15rem;
+  }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  .toplogo {
+    margin-left: 5rem;
+  }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .toplogo {
+    margin-left: 5rem;
+  }
+}
+
+@media(max-width: 640px) {
+    .toplogo {
+      margin-left: 2rem;
+    }
+  }
 
 .navbar {
   margin-top: 1.5rem;
